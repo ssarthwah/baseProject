@@ -584,6 +584,41 @@
                 <version>1.2.8</version>
                 <scope>provided</scope>
             </dependency>
+            <!-- apache sling commons json in AEM 6.x -->
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.commons.json</artifactId>
+                <version>2.0.10</version>
+                <scope>provided</scope>
+            </dependency>
+            <!-- apache sling commons osgi in AEM 6.x -->
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.commons.osgi</artifactId>
+                <version>2.2.2</version>
+                <scope>provided</scope>
+            </dependency>
+            <!-- apache sling api in AEM 6.x -->
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.api</artifactId>
+                <version>2.9.0</version>
+                <scope>provided</scope>
+            </dependency>
+            <!-- apache sling jcr api in AEM 6.x -->
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.jcr.api</artifactId>
+                <version>2.3.0</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.settings</artifactId>
+                <version>1.3.8</version>
+                <scope>provided</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
