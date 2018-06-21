@@ -107,6 +107,13 @@ public class CreateProductPages  {
 		} catch (WCMException e) {
 			LOGGER.error("WCMException | " + this.getClass().getSimpleName(), e);
 			return false;
+		}finally {
+			if(session!=null && session.isLive()){
+				session.logout();
+			}
+			if (resourceResolver != null && resourceResolver.isLive()) {
+				resourceResolver.close();
+			}
 		} 
 	}
 
