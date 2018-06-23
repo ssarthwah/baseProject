@@ -16,7 +16,7 @@ The main parts of the template are:
 - ui.apps: contains the /apps (and /etc) parts of the project, ie JS&CSS clientlibs, components, templates, runmode specific configs as well as Hobbes-tests
 - ui.content: contains sample content using the components from the ui.apps
 - it.tests: Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
-- it.launcher: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution
+- it.launcher: contains glue code that deploys the it.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution
 
 
 # How to build
